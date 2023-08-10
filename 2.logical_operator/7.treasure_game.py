@@ -16,10 +16,10 @@ if direction == "left":
     doing = input("Do you go to swim or wait? ").lower()
     #if answer is wait print the next question
     if doing == "swim":
-        door_color = input("Which door Red or Blue or Yellow?").lower()
+        door_color = input("Which door Red or Blue or Yellow? ").lower()
         #question Which door Red or Blue or Yellow?
         #if answer is Red or Blue , print Game Over and quit game
-        if (door_color == "red") or (door_color = "bule"):
+        if (door_color == "red") or (door_color == "blue"):
             print("Game over.")
         #if answer is Yellow, print You Win!
         else:
