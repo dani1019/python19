@@ -4,9 +4,6 @@ print("""
       Your mission is to find the treasure.        
       """)
 
-
-
-
 direction = input("which direction do you go left or right? ").lower()
 
 #question you will go left of right?
