@@ -1,0 +1,1 @@
+words = ["Ronaldo", "Messi", "Rivaldo", "Rooney", "Neymar"]
