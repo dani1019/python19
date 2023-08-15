@@ -1,12 +1,21 @@
-def match_letter(display_string, answer,letter):
-    print(answer)
-    print(letter)
-    for answer_letter in list(answer):
-        print(f"answer_letter:{answer_letter}")
-        print(f"letter: {letter}")
-        if answer_letter == letter:
-            display_string.append(letter)
-        else:
-            display_string.append("_")
-    
-    return display_string
+matched_inform = []
+  = []
+
+def match_letter(answer, letter):
+        for index, letter in enumerate(display_string):
+            if entered_letter != letter:
+                display_string.append(indexletter
+            else:
+                display_string[index] = letter
+
+def update_display_string(matched_inform):
+     for index, value in enumerate(matched_inform):
+            
+         
+              
+              
+               
+
+
+     
+     
