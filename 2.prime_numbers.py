@@ -13,10 +13,10 @@ def prime_number(number):
     #count except  the divided in 1 or number 
     #error if i != 1 enter the number % i == 0
     for i in range(1, number + 1):
-        if i != 1 or i != number:
-            print(i)
-            if number % i == 0:
-                cnt += 1
+        if i == 1 or i == number:
+              pass
+        else:
+            cnt += 1
 
     #count is 0, It's a prime number.
     if cnt == 0:
